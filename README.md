@@ -11,10 +11,13 @@
 <h2 align="center"> ⚡ Tools of The Trade ⚡</h2>
 <p align="center">
   <!-- Languages & Frontend -->
+  <img src="https://img.shields.io/badge/next.js-black?style=for-the-badge&logo=next.js" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/react-black?style=for-the-badge&logo=react" />&nbsp;&nbsp;
   <img src="https://img.shields.io/badge/typescript-black?style=for-the-badge&logo=typescript" />&nbsp;&nbsp;
   <img src="https://img.shields.io/badge/javascript-black?style=for-the-badge&logo=javascript" />&nbsp;&nbsp;
   <img src="https://img.shields.io/badge/html5-black?style=for-the-badge&logo=html5" />&nbsp;&nbsp;
   <img src="https://img.shields.io/badge/css3-black?style=for-the-badge&logo=css3" />&nbsp;&nbsp;
+
   
   <br><br>
   
@@ -57,15 +60,3 @@
 
 </div>
 
-<hr>
-
-<h2 align="center"> 🤝 Let's Connect 🤝 </h2>
-<p align="center">
-  <a href="https://github.com/MrPpant" target="_blank"><img alt="Github" src="https://img.shields.io/badge/github-black?style=for-the-badge&logo=github" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://t.me/MrPpant" target="_blank"><img alt="Telegram" src="https://img.shields.io/badge/telegram-black?style=for-the-badge&logo=telegram" /></a>
-</p>
-
-<br>
-<p align="center">
-  <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=MrPpant&show_icons=true&theme=tokyonight&hide_border=true" />
-</p>

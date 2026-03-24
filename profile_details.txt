@@ -1,0 +1,26 @@
+# Profile Details: MrPpant
+
+## Professional Summary
+- **Role:** Fullstack Developer
+- **Experience:** 8 years in the tech world (and still learning)
+- **Expertise:** Backend expert, server operations, and command prompts
+- **Focus:** Applying cybersecurity best practices to websites and applications
+
+## Technical Skills
+- **Backend Languages & Frameworks:** Node.js, Express.js, TypeScript
+- **Frontend Technologies:** HTML, CSS, JavaScript, React.js, Next.js
+- **Databases:** PostgreSQL, MongoDB, Redis
+- **DevOps, Cloud & Servers:** Linux, Docker, AWS, Google Cloud Run, VPS Hosting
+- **Cybersecurity & Tools:** BurpSuite, Git, Bash/Command Prompts
+
+## Notable Projects
+### Web Applications
+- **Play Champ:** A web application project (https://playchamp.app)
+- **Startups:** Contributed to various unnamed startup projects
+
+### Telegram Bots (Creator/Owner)
+- **Genz Meet:** An interactive bot and channel
+  - Bot: https://t.me/genzmeet
+  - Channel: https://t.me/genzmeetbotchannel
+- **Cast Ad Bot:** Advertising utility bot (https://t.me/castadBot)
+- **CediEarn Bot:** Earnings/utility bot (https://t.me/CediEarnBot)

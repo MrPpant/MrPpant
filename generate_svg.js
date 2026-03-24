@@ -9,7 +9,7 @@ function generateSvg() {
         '<tspan x="20" dy="1.5em"><tspan fill="#e5c07b">@MrPpant</tspan> <tspan fill="#56b6c2">-&gt;</tspan> <tspan fill="#61afef">~</tspan> <tspan fill="#d19a66">0.1s</tspan> <tspan fill="#e06c75" font-weight="bold">whoami</tspan></tspan>',
         '<tspan x="20" dy="1.5em"></tspan>',
         '<tspan x="20" dy="1.5em" fill="#c678dd">👨‍💻</tspan><tspan fill="#abb2bf"> I am a full-stack developer with 8 years of experience in the tech world.</tspan>',
-        '<tspan x="20" dy="1.2em" fill="#98c379">⚙️</tspan><tspan fill="#abb2bf"> Backend expert in Node.js (Express, TypeScript) alongside HTML, CSS, and JS.</tspan>',
+        '<tspan x="20" dy="1.2em" fill="#98c379">⚙️</tspan><tspan fill="#abb2bf"> Backend expert in Node.js (Express, TypeScript) alongside React, Next.js, and JS.</tspan>',
         '<tspan x="20" dy="1.2em" fill="#56b6c2">🛡️</tspan><tspan fill="#abb2bf"> Knowledgeable in cybersecurity (BurpSuite), ensuring best practices for web &amp; apps.</tspan>',
         '<tspan x="20" dy="1.5em"></tspan>',
 
