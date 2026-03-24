@@ -1,5 +1,8 @@
 ## Hi there 👋
 
+<p align="center">
+  <img src="terminal.svg" alt="MrPpant's Animated Terminal" width="900" />
+</p>
 <!--
 **MrPpant/MrPpant** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
