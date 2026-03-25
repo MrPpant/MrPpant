@@ -1,13 +1,3 @@
-<h1 align="center">
-  <img src="https://komarev.com/ghpvc/?username=MrPpant&style=for-the-badge&color=blue" alt="Profile Views" />
-</h1>
-
-<div align="center">
-  <img src="terminal.svg" alt="MrPpant's Animated Terminal" width="900" style="max-width: 100%; height: auto"/>
-</div>
-
-<hr>
-
 <h2 align="center"> ⚡ Tools of The Trade ⚡</h2>
 <p align="center">
   <!-- Languages & Frontend -->
@@ -45,18 +35,3 @@
   <img src="https://img.shields.io/badge/cybersecurity-black?style=for-the-badge&logo=security" />&nbsp;&nbsp;
   <img src="https://img.shields.io/badge/burp_suite-black?style=for-the-badge&logo=burpsuite" />&nbsp;&nbsp;
 </p>
-
-<hr>
-
-<h2 align="center"> 🚀 Awesome Projects 🚀 </h2>
-<div align="center">
-
-| Project Name | Description | Link |
-| :--- | :--- | :--- |
-| **Play Champ** | Webapp project | [playchamp.app](https://playchamp.app) |
-| **Genz Meet** | Interactive Telegram Bot & Channel | [Bot](https://t.me/genzmeet) / [Channel](https://t.me/genzmeetbotchannel) |
-| **Cast Ad Bot** | Telegram Advertising Bot | [t.me/castadBot](https://t.me/castadBot) |
-| **CediEarn Bot** | Telegram Earnings Bot | [t.me/CediEarnBot](https://t.me/CediEarnBot) |
-
-</div>
-
