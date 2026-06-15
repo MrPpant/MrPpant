@@ -21,17 +21,17 @@
       .cc2 { animation: show 0.01s 2.8s forwards, slide 0.6s steps(6) 2.8s forwards, blink 1.0s step-end 2.8s 4, hide 0.01s 6.8s forwards; --tx: 56px; }
       .r2  { animation: slide 0.6s steps(6) 2.8s forwards, hide 0.01s 6.8s forwards; --tx: 56px; }
       .p4  { opacity: 0; animation: show 0.01s 6.8s forwards; }
-      .cc4 { animation: show 0.01s 6.8s forwards, slide 2.4s steps(80) 6.8s forwards, blink 1.0s step-end 6.8s 2, hide 0.01s 10.4s forwards; --tx: 767px; }
-      .r4  { animation: slide 2.4s steps(80) 6.8s forwards, hide 0.01s 10.4s forwards; --tx: 767px; }
-      .p5  { opacity: 0; animation: show 0.01s 10.4s forwards; }
-      .cc5 { animation: show 0.01s 10.4s forwards, slide 2s steps(70) 10.4s forwards, blink 1.0s step-end 10.4s 2, hide 0.01s 13.6s forwards; --tx: 673px; }
-      .r5  { animation: slide 2s steps(70) 10.4s forwards, hide 0.01s 13.6s forwards; --tx: 673px; }
-      .p5b  { opacity: 0; animation: show 0.01s 13.6s forwards; }
-      .cc5b { animation: show 0.01s 13.6s forwards, slide 2s steps(75) 13.6s forwards, blink 1.0s step-end 13.6s 2, hide 0.01s 16.8s forwards; --tx: 720px; }
-      .r5b  { animation: slide 2s steps(75) 13.6s forwards, hide 0.01s 16.8s forwards; --tx: 720px; }
-      .p6  { opacity: 0; animation: show 0.01s 16.8s forwards; }
-      .cc6 { animation: show 0.01s 16.8s forwards, slide 2.7s steps(104) 16.8s forwards, blink 1.0s step-end 16.8s 2, hide 0.01s 21s forwards; --tx: 991px; }
-      .r6  { animation: slide 2.7s steps(104) 16.8s forwards, hide 0.01s 21s forwards; --tx: 991px; }
+      .cc4 { animation: show 0.01s 6.8s forwards, slide 3s steps(101) 6.8s forwards, blink 1.0s step-end 6.8s 2, hide 0.01s 11s forwards; --tx: 963px; }
+      .r4  { animation: slide 3s steps(101) 6.8s forwards, hide 0.01s 11s forwards; --tx: 963px; }
+      .p5  { opacity: 0; animation: show 0.01s 11.2s forwards; }
+      .cc5 { animation: show 0.01s 11.2s forwards, slide 2.6s steps(86) 11.2s forwards, blink 1.0s step-end 11.2s 2, hide 0.01s 15s forwards; --tx: 823px; }
+      .r5  { animation: slide 2.6s steps(86) 11.2s forwards, hide 0.01s 15s forwards; --tx: 823px; }
+      .p5b  { opacity: 0; animation: show 0.01s 15.2s forwards; }
+      .cc5b { animation: show 0.01s 15.2s forwards, slide 2s steps(65) 15.2s forwards, blink 1.0s step-end 15.2s 2, hide 0.01s 18.4s forwards; --tx: 626px; }
+      .r5b  { animation: slide 2s steps(65) 15.2s forwards, hide 0.01s 18.4s forwards; --tx: 626px; }
+      .p6  { opacity: 0; animation: show 0.01s 18.6s forwards; }
+      .cc6 { animation: show 0.01s 18.6s forwards, slide 2.4s steps(76) 18.6s forwards, blink 1.0s step-end 18.6s 2, hide 0.01s 22.2s forwards; --tx: 729px; }
+      .r6  { animation: slide 2.4s steps(76) 18.6s forwards, hide 0.01s 22.2s forwards; --tx: 729px; }
       .p8  { opacity: 0; animation: show 0.01s 21s forwards; }
       .cc8 { animation: show 0.01s 21s forwards, slide 1.2s steps(16) 21s forwards, blink 1.0s step-end 21s 5, hide 0.01s 25.8s forwards; --tx: 150px; }
       .r8  { animation: slide 1.2s steps(16) 21s forwards, hide 0.01s 25.8s forwards; --tx: 150px; }
@@ -89,79 +89,79 @@
   <text class="cursor cc2" x="198" y="107">_</text>
 
   <text class="text p4" x="20" y="133">
-    <tspan fill="#c678dd">👨‍💻</tspan><tspan> A full-stack engineer with 10 years of experience building production software.</tspan>
+    <tspan fill="#c678dd">👨‍💻</tspan><tspan> 8+ years experience shipping prod systems. </tspan><tspan fill="#98c379">Full-Stack Developer</tspan><tspan>, no abstraction left unchallenged.</tspan>
   </text>
   <rect class="overlay r4" x="20" y="116" width="1000" height="22" />
   <text class="cursor cc4" x="20" y="133">_</text>
 
-  <text class="text p5" x="20" y="153">
-    <tspan fill="#98c379">⚙️</tspan><tspan> A backend specialist building scalable APIs with Node.js &amp; TypeScript.</tspan>
+  <text class="text p5" x="20" y="159">
+    <tspan fill="#98c379">⚙️</tspan><tspan> </tspan><tspan fill="#98c379">Backend Expert</tspan><tspan>: Node.js + TypeScript ~ typed contracts, clean domain logic, zero any.</tspan>
   </text>
-  <rect class="overlay r5" x="20" y="136" width="1000" height="22" />
-  <text class="cursor cc5" x="20" y="153">_</text>
+  <rect class="overlay r5" x="20" y="142" width="1000" height="22" />
+  <text class="cursor cc5" x="20" y="159">_</text>
 
-  <text class="text p5b" x="20" y="173">
-    <tspan fill="#e5c07b">🎨</tspan><tspan> A frontend developer crafting responsive UI/UX with HTML, React &amp; Next.js.</tspan>
+  <text class="text p5b" x="20" y="185">
+    <tspan fill="#e5c07b">🎨</tspan><tspan> React &amp; Next.js — SSR, RSC, hydration. Semantic HTML by default.</tspan>
   </text>
-  <rect class="overlay r5b" x="20" y="156" width="1000" height="22" />
-  <text class="cursor cc5b" x="20" y="173">_</text>
+  <rect class="overlay r5b" x="20" y="168" width="1000" height="22" />
+  <text class="cursor cc5b" x="20" y="185">_</text>
 
-  <text class="text p6" x="20" y="193">
-    <tspan fill="#56b6c2">🛡️</tspan><tspan> A cybersecurity engineer experienced in web application security testing with BurpSuite.</tspan>
+  <text class="text p6" x="20" y="211">
+    <tspan fill="#56b6c2">🛡️</tspan><tspan> BurpSuite, OWASP Top 10 &amp; Linux tooling. Security on day one, not day last.</tspan>
   </text>
-  <rect class="overlay r6" x="20" y="176" width="1000" height="22" />
-  <text class="cursor cc6" x="20" y="193">_</text>
+  <rect class="overlay r6" x="20" y="194" width="1000" height="22" />
+  <text class="cursor cc6" x="20" y="211">_</text>
 
-  <text class="text" x="20" y="219"></text>
+  <text class="text" x="20" y="237"></text>
 
-  <text class="text p8" x="20" y="245">
+  <text class="text p8" x="20" y="263">
     <tspan fill="#e5c07b">@MrPpant</tspan> <tspan fill="#56b6c2">-&gt;</tspan> <tspan fill="#61afef">~</tspan> <tspan fill="#d19a66">0.8s</tspan> <tspan fill="#e06c75" font-weight="bold">ls -la /projects</tspan>
   </text>
-  <rect class="overlay r8" x="198" y="228" width="1000" height="22" />
-  <text class="cursor cc8" x="198" y="245">_</text>
+  <rect class="overlay r8" x="198" y="246" width="1000" height="22" />
+  <text class="cursor cc8" x="198" y="263">_</text>
 
-  <text class="text p10" x="20" y="271">
+  <text class="text p10" x="20" y="289">
     drwxr-xr-x  2 mrppant tech  4096 <tspan fill="#61afef">MX_CodeLab</tspan>      -&gt; https://mxcodelab.com
   </text>
-  <rect class="overlay r10" x="20" y="254" width="1000" height="22" />
-  <text class="cursor cc10" x="20" y="271">_</text>
+  <rect class="overlay r10" x="20" y="272" width="1000" height="22" />
+  <text class="cursor cc10" x="20" y="289">_</text>
 
-  <text class="text p10b" x="20" y="291">
+  <text class="text p10b" x="20" y="309">
     drwxr-xr-x  2 mrppant tech  4096 <tspan fill="#61afef">Play_Champ</tspan>      -&gt; https://playchamp.app
   </text>
-  <rect class="overlay r10b" x="20" y="274" width="1000" height="22" />
-  <text class="cursor cc10b" x="20" y="291">_</text>
+  <rect class="overlay r10b" x="20" y="292" width="1000" height="22" />
+  <text class="cursor cc10b" x="20" y="309">_</text>
 
-  <text class="text p11" x="20" y="311">
+  <text class="text p11" x="20" y="329">
     drwxr-xr-x  2 mrppant tech  4096 <tspan fill="#61afef">Genz_Meet</tspan>       -&gt; t.me/genzmeet (Ch: t.me/genzmeetbotchannel)
   </text>
-  <rect class="overlay r11" x="20" y="294" width="1000" height="22" />
-  <text class="cursor cc11" x="20" y="311">_</text>
+  <rect class="overlay r11" x="20" y="312" width="1000" height="22" />
+  <text class="cursor cc11" x="20" y="329">_</text>
 
-  <text class="text p12" x="20" y="331">
+  <text class="text p12" x="20" y="349">
     drwxr-xr-x  2 mrppant tech  4096 <tspan fill="#61afef">Cast_Ad_Bot</tspan>     -&gt; t.me/castadBot
   </text>
-  <rect class="overlay r12" x="20" y="314" width="1000" height="22" />
-  <text class="cursor cc12" x="20" y="331">_</text>
+  <rect class="overlay r12" x="20" y="332" width="1000" height="22" />
+  <text class="cursor cc12" x="20" y="349">_</text>
 
-  <text class="text p13" x="20" y="351">
+  <text class="text p13" x="20" y="369">
     drwxr-xr-x  2 mrppant tech  4096 <tspan fill="#61afef">CediEarnBot</tspan>     -&gt; t.me/CediEarnBot
   </text>
-  <rect class="overlay r13" x="20" y="334" width="1000" height="22" />
-  <text class="cursor cc13" x="20" y="351">_</text>
+  <rect class="overlay r13" x="20" y="352" width="1000" height="22" />
+  <text class="cursor cc13" x="20" y="369">_</text>
 
-  <text class="text p14" x="20" y="371">
+  <text class="text p14" x="20" y="389">
     drwxr-xr-x  2 mrppant tech  4096 <tspan fill="#61afef">Contribs</tspan>        -&gt; Various Startup Projects
   </text>
-  <rect class="overlay r14" x="20" y="354" width="1000" height="22" />
-  <text class="cursor cc14" x="20" y="371">_</text>
+  <rect class="overlay r14" x="20" y="372" width="1000" height="22" />
+  <text class="cursor cc14" x="20" y="389">_</text>
 
-  <text class="text" x="20" y="397"></text>
+  <text class="text" x="20" y="415"></text>
 
-  <text class="text p16" x="20" y="423">
+  <text class="text p16" x="20" y="441">
     <tspan fill="#e5c07b">@MrPpant</tspan> <tspan fill="#56b6c2">-&gt;</tspan> <tspan fill="#61afef">~</tspan> <tspan fill="#d19a66">0.0s</tspan> 
   </text>
-  <rect class="overlay r16" x="198" y="406" width="1000" height="22" />
-  <text class="cursor cc16" x="198" y="423" fill="#e06c75">_</text>
+  <rect class="overlay r16" x="198" y="424" width="1000" height="22" />
+  <text class="cursor cc16" x="198" y="441" fill="#e06c75">_</text>
 
 </svg>
