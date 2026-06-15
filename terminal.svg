@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="504" viewBox="0 0 1000 504">
+  <defs>
+    <style>
+      .bg { fill: #0c0c0c; }
+      .header-bg { fill: #1e1e1e; }
+      .tab-bg { fill: #0c0c0c; }
+      .text { font-family: 'Consolas', 'Courier New', monospace; font-size: 17px; fill: #abb2bf; }
+      .window-ctrl { fill: #aaaaaa; }
+
+      @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+      @keyframes hide { to { opacity: 0; visibility: hidden; } }
+      @keyframes slide { from { transform: translateX(0); } to { transform: translateX(var(--tx)); } }
+      @keyframes show { to { opacity: 1; } }
+
+      .cursor { fill: #e06c75; font-family: 'Consolas', 'Courier New', monospace; font-size: 17px; opacity: 0; }
+
+      .p0  { opacity: 0; animation: show 0.01s 0.3s forwards; }
+      .cc0 { animation: show 0.01s 0.3s forwards, slide 1.3s steps(52) 0.3s forwards, blink 1.0s step-end 0.3s 3, hide 0.01s 2.8s forwards; --tx: 486px; }
+      .r0  { animation: slide 1.3s steps(52) 0.3s forwards, hide 0.01s 2.8s forwards; --tx: 486px; }
+      .p2  { opacity: 0; animation: show 0.01s 2.8s forwards; }
+      .cc2 { animation: show 0.01s 2.8s forwards, slide 0.6s steps(6) 2.8s forwards, blink 1.0s step-end 2.8s 4, hide 0.01s 6.8s forwards; --tx: 56px; }
+      .r2  { animation: slide 0.6s steps(6) 2.8s forwards, hide 0.01s 6.8s forwards; --tx: 56px; }
+      .p4  { opacity: 0; animation: show 0.01s 6.8s forwards; }
+      .cc4 { animation: show 0.01s 6.8s forwards, slide 2.4s steps(80) 6.8s forwards, blink 1.0s step-end 6.8s 2, hide 0.01s 10.4s forwards; --tx: 748px; }
+      .r4  { animation: slide 2.4s steps(80) 6.8s forwards, hide 0.01s 10.4s forwards; --tx: 748px; }
+      .p5  { opacity: 0; animation: show 0.01s 10.4s forwards; }
+      .cc5 { animation: show 0.01s 10.4s forwards, slide 2s steps(70) 10.4s forwards, blink 1.0s step-end 10.4s 2, hide 0.01s 13.6s forwards; --tx: 655px; }
+      .r5  { animation: slide 2s steps(70) 10.4s forwards, hide 0.01s 13.6s forwards; --tx: 655px; }
+      .p5b  { opacity: 0; animation: show 0.01s 13.6s forwards; }
+      .cc5b { animation: show 0.01s 13.6s forwards, slide 2s steps(75) 13.6s forwards, blink 1.0s step-end 13.6s 2, hide 0.01s 16.8s forwards; --tx: 701px; }
+      .r5b  { animation: slide 2s steps(75) 13.6s forwards, hide 0.01s 16.8s forwards; --tx: 701px; }
+      .p6  { opacity: 0; animation: show 0.01s 16.8s forwards; }
+      .cc6 { animation: show 0.01s 16.8s forwards, slide 2.7s steps(104) 16.8s forwards, blink 1.0s step-end 16.8s 2, hide 0.01s 21s forwards; --tx: 972px; }
+      .r6  { animation: slide 2.7s steps(104) 16.8s forwards, hide 0.01s 21s forwards; --tx: 972px; }
+      .p8  { opacity: 0; animation: show 0.01s 21s forwards; }
+      .cc8 { animation: show 0.01s 21s forwards, slide 1.2s steps(16) 21s forwards, blink 1.0s step-end 21s 5, hide 0.01s 25.8s forwards; --tx: 150px; }
+      .r8  { animation: slide 1.2s steps(16) 21s forwards, hide 0.01s 25.8s forwards; --tx: 150px; }
+      .p10  { opacity: 0; animation: show 0.01s 25.8s forwards; }
+      .cc10 { animation: show 0.01s 25.8s forwards, slide 1.8s steps(72) 25.8s forwards, blink 1.0s step-end 25.8s 3, hide 0.01s 28.6s forwards; --tx: 673px; }
+      .r10  { animation: slide 1.8s steps(72) 25.8s forwards, hide 0.01s 28.6s forwards; --tx: 673px; }
+      .p10b  { opacity: 0; animation: show 0.01s 28.6s forwards; }
+      .cc10b { animation: show 0.01s 28.6s forwards, slide 1.8s steps(68) 28.6s forwards, blink 1.0s step-end 28.6s 3, hide 0.01s 31.4s forwards; --tx: 636px; }
+      .r10b  { animation: slide 1.8s steps(68) 28.6s forwards, hide 0.01s 31.4s forwards; --tx: 636px; }
+      .p11  { opacity: 0; animation: show 0.01s 31.4s forwards; }
+      .cc11 { animation: show 0.01s 31.4s forwards, slide 2s steps(94) 31.4s forwards, blink 1.0s step-end 31.4s 4, hide 0.01s 34.6s forwards; --tx: 879px; }
+      .r11  { animation: slide 2s steps(94) 31.4s forwards, hide 0.01s 34.6s forwards; --tx: 879px; }
+      .p12  { opacity: 0; animation: show 0.01s 34.6s forwards; }
+      .cc12 { animation: show 0.01s 34.6s forwards, slide 1.8s steps(63) 34.6s forwards, blink 1.0s step-end 34.6s 3, hide 0.01s 37.6s forwards; --tx: 589px; }
+      .r12  { animation: slide 1.8s steps(63) 34.6s forwards, hide 0.01s 37.6s forwards; --tx: 589px; }
+      .p13  { opacity: 0; animation: show 0.01s 37.6s forwards; }
+      .cc13 { animation: show 0.01s 37.6s forwards, slide 1.6s steps(60) 37.6s forwards, blink 1.0s step-end 37.6s 3, hide 0.01s 40.4s forwards; --tx: 561px; }
+      .r13  { animation: slide 1.6s steps(60) 37.6s forwards, hide 0.01s 40.4s forwards; --tx: 561px; }
+      .p14  { opacity: 0; animation: show 0.01s 40.4s forwards; }
+      .cc14 { animation: show 0.01s 40.4s forwards, slide 1.6s steps(68) 40.4s forwards, blink 1.0s step-end 40.4s 3, hide 0.01s 43.2s forwards; --tx: 636px; }
+      .r14  { animation: slide 1.6s steps(68) 40.4s forwards, hide 0.01s 43.2s forwards; --tx: 636px; }
+      .p16  { opacity: 0; animation: show 0.01s 43.2s forwards; }
+      .cc16 { animation: show 0.01s 43.2s forwards, slide 0.1s steps(1) 43.2s forwards, blink 1.0s step-end 43.2s infinite; --tx: 9px; }
+      .r16  { animation: slide 0.1s steps(1) 43.2s forwards; --tx: 9px; }
+
+      .overlay { fill: #0c0c0c; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="100%" height="100%" />
+
+  <path class="header-bg" d="M8,0 h984 a8,8 0 0,1 8,8 v32 h-1000 v-32 a8,8 0 0,1 8,-8 z" />
+  <path class="tab-bg" d="M10,8 h150 a8,8 0 0,1 8,8 v24 h-166 v-24 a8,8 0 0,1 8,-8 z" />
+  <text x="20" y="27" font-family="'Segoe UI', sans-serif" font-size="14" fill="#257eb5" font-weight="bold">&gt;_</text>
+  <text x="45" y="27" font-family="'Segoe UI', sans-serif" font-size="12" fill="#cccccc">PowerShell</text>
+  <text x="145" y="27" font-family="'Segoe UI', sans-serif" font-size="12" fill="#aaaaaa">×</text>
+  <text x="180" y="27" font-family="'Segoe UI', sans-serif" font-size="16" fill="#aaaaaa">+</text>
+
+  <path class="window-ctrl" d="M 900,20 h 10" stroke="#aaaaaa" stroke-width="1.5" />
+  <rect class="window-ctrl" x="935" y="15" width="10" height="10" fill="none" stroke="#aaaaaa" stroke-width="1.5" />
+  <path class="window-ctrl" d="M 975,15 l 10,10 M 985,15 l -10,10" stroke="#aaaaaa" stroke-width="1.5" />
+
+  <text class="text p0" x="20" y="55">
+    <tspan fill="#e06c75">👾</tspan><tspan> System initialized. Welcome to MrPpant's terminal.</tspan>
+  </text>
+  <rect class="overlay r0" x="20" y="38" width="1000" height="22" />
+  <text class="cursor cc0" x="20" y="55">_</text>
+
+  <text class="text" x="20" y="81"></text>
+
+  <text class="text p2" x="20" y="107">
+    <tspan fill="#e5c07b">@MrPpant</tspan> <tspan fill="#56b6c2">-&gt;</tspan> <tspan fill="#61afef">~</tspan> <tspan fill="#d19a66">0.1s</tspan> <tspan fill="#e06c75" font-weight="bold">whoami</tspan>
+  </text>
+  <rect class="overlay r2" x="198" y="90" width="1000" height="22" />
+  <text class="cursor cc2" x="198" y="107">_</text>
+
+  <text class="text p4" x="20" y="133">
+    <tspan fill="#c678dd">👨‍💻</tspan><tspan> Full-stack engineer with 10 years of experience building production software.</tspan>
+  </text>
+  <rect class="overlay r4" x="20" y="116" width="1000" height="22" />
+  <text class="cursor cc4" x="20" y="133">_</text>
+
+  <text class="text p5" x="20" y="153">
+    <tspan fill="#98c379">⚙️</tspan><tspan> Backend specialist building scalable APIs with Node.js &amp; TypeScript.</tspan>
+  </text>
+  <rect class="overlay r5" x="20" y="136" width="1000" height="22" />
+  <text class="cursor cc5" x="20" y="153">_</text>
+
+  <text class="text p5b" x="20" y="173">
+    <tspan fill="#e5c07b">🎨</tspan><tspan> Frontend developer crafting responsive UI/UX with HTML, React &amp; Next.js.</tspan>
+  </text>
+  <rect class="overlay r5b" x="20" y="156" width="1000" height="22" />
+  <text class="cursor cc5b" x="20" y="173">_</text>
+
+  <text class="text p6" x="20" y="193">
+    <tspan fill="#56b6c2">🛡️</tspan><tspan> Cybersecurity expert proficient with Linux Tools (e.g. BurpSuite) to enforce security best practices.</tspan>
+  </text>
+  <rect class="overlay r6" x="20" y="176" width="1000" height="22" />
+  <text class="cursor cc6" x="20" y="193">_</text>
+
+  <text class="text" x="20" y="219"></text>
+
+  <text class="text p8" x="20" y="245">
+    <tspan fill="#e5c07b">@MrPpant</tspan> <tspan fill="#56b6c2">-&gt;</tspan> <tspan fill="#61afef">~</tspan> <tspan fill="#d19a66">0.8s</tspan> <tspan fill="#e06c75" font-weight="bold">ls -la /projects</tspan>
+  </text>
+  <rect class="overlay r8" x="198" y="228" width="1000" height="22" />
+  <text class="cursor cc8" x="198" y="245">_</text>
+
+  <text class="text" x="20" y="271"></text>
+
+  <text class="text p10" x="20" y="297">
+    drwxr-xr-x  2 mrppant tech  4096 <tspan fill="#61afef">MX_CodeLab</tspan>      -&gt; https://mxcodelab.com
+  </text>
+  <rect class="overlay r10" x="20" y="280" width="1000" height="22" />
+  <text class="cursor cc10" x="20" y="297">_</text>
+
+  <text class="text p10b" x="20" y="317">
+    drwxr-xr-x  2 mrppant tech  4096 <tspan fill="#61afef">Play_Champ</tspan>      -&gt; https://playchamp.app
+  </text>
+  <rect class="overlay r10b" x="20" y="300" width="1000" height="22" />
+  <text class="cursor cc10b" x="20" y="317">_</text>
+
+  <text class="text p11" x="20" y="337">
+    drwxr-xr-x  2 mrppant tech  4096 <tspan fill="#61afef">Genz_Meet</tspan>       -&gt; t.me/genzmeet (Ch: t.me/genzmeetbotchannel)
+  </text>
+  <rect class="overlay r11" x="20" y="320" width="1000" height="22" />
+  <text class="cursor cc11" x="20" y="337">_</text>
+
+  <text class="text p12" x="20" y="357">
+    drwxr-xr-x  2 mrppant tech  4096 <tspan fill="#61afef">Cast_Ad_Bot</tspan>     -&gt; t.me/castadBot
+  </text>
+  <rect class="overlay r12" x="20" y="340" width="1000" height="22" />
+  <text class="cursor cc12" x="20" y="357">_</text>
+
+  <text class="text p13" x="20" y="377">
+    drwxr-xr-x  2 mrppant tech  4096 <tspan fill="#61afef">CediEarnBot</tspan>     -&gt; t.me/CediEarnBot
+  </text>
+  <rect class="overlay r13" x="20" y="360" width="1000" height="22" />
+  <text class="cursor cc13" x="20" y="377">_</text>
+
+  <text class="text p14" x="20" y="397">
+    drwxr-xr-x  2 mrppant tech  4096 <tspan fill="#61afef">Contribs</tspan>        -&gt; Various Startup Projects
+  </text>
+  <rect class="overlay r14" x="20" y="380" width="1000" height="22" />
+  <text class="cursor cc14" x="20" y="397">_</text>
+
+  <text class="text" x="20" y="423"></text>
+
+  <text class="text p16" x="20" y="449">
+    <tspan fill="#e5c07b">@MrPpant</tspan> <tspan fill="#56b6c2">-&gt;</tspan> <tspan fill="#61afef">~</tspan> <tspan fill="#d19a66">0.0s</tspan> 
+  </text>
+  <rect class="overlay r16" x="198" y="432" width="1000" height="22" />
+  <text class="cursor cc16" x="198" y="449" fill="#e06c75">_</text>
+
+</svg>
