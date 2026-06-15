@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="terminal.svg" alt="MrPpant Terminal" />
+</p>
+
+<br/>
+
 <h2 align="center"> ⚡ Tools of The Trade ⚡</h2>
 
 <h3 align="center"> Programming Languages </h3>
@@ -38,7 +44,7 @@
   <img src="https://img.shields.io/badge/cypress-black?style=for-the-badge&logo=cypress" />&nbsp;&nbsp;
 </p>
 
-<h3 align="center"> DevOps & Cloud </h3>
+<h3 align="center"> DevOps &amp; Cloud </h3>
 <p align="center">
   <img src="https://img.shields.io/badge/docker-black?style=for-the-badge&logo=docker" />&nbsp;&nbsp;
   <img src="https://img.shields.io/badge/linux-black?style=for-the-badge&logo=linux" />&nbsp;&nbsp;
@@ -47,7 +53,7 @@
   <img src="https://img.shields.io/badge/vps_hosting-black?style=for-the-badge&logo=digitalocean" />&nbsp;&nbsp;
 </p>
 
-<h3 align="center"> Tools & Security </h3>
+<h3 align="center"> Tools &amp; Security </h3>
 <p align="center">
   <img src="https://img.shields.io/badge/git-black?style=for-the-badge&logo=git" />&nbsp;&nbsp;
   <img src="https://img.shields.io/badge/bash-black?style=for-the-badge&logo=gnometerminal" />&nbsp;&nbsp;
@@ -55,12 +61,9 @@
   <img src="https://img.shields.io/badge/burp_suite-black?style=for-the-badge&logo=burpsuite" />&nbsp;&nbsp;
 </p>
 
-
-
 <hr>
 
 <h2 align="center"> 📊 GitHub Stats 📊 </h2>
-
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=MrPpant&show_icons=true&locale=en&layout=compact" alt="Top Languages" />
